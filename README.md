@@ -1,27 +1,65 @@
-## .preview
-![To-Do List App](https://i.ibb.co/h73STxF/screencapture-localhost-5500-2020-11-29-22-11-39.png)
+# 📝 To-Do List App
 
-## .features
-- [x] Show tasks list
-- [x] Add new task
-- [ ] Complete task
-- [x] Delete task
-- [x] Edit task
-- [x] Clear all tasks
-- [ ] Clear complete tasks
-- [x] Save on local storage
-- [x] Reverse sort by id
-- [x] Show message if not task
-- [x] Show toast when add, delete task
-- [x] Change alert box to modal
-- [x] Custom scrollbar
-- [x] Responsivity
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=fff&style=flat)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=fff&style=flat)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000&style=flat)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen)
 
-## .tools
-- Css Framework: [Semantic UI](https://semantic-ui.com)
-- Toast or Notification: [Noty](https://ned.im/noty)
+A modern, responsive **To-Do List web application** built using **HTML, CSS, and JavaScript**.  
+It helps users efficiently manage tasks with real-time updates, notifications, and persistent local storage.
 
-## .contact
-- Email: [dev.mehdineysi@gmail.com](mailto:dev.mehdineysi@gmail.com)
-- Instagram: [@neysidev](https://instagram.com/neysidev)
-- Twitter: [@neysidev](https://twitter.com/neysidev)
+---
+
+## 🌐 Live Demo
+
+👉 **[Click here to view on GitHub Pages](https://<your-username>.github.io/<your-repo-name>/)**
+
+*(Replace `<your-username>` and `<your-repo-name>` with your actual GitHub info.)*
+
+---
+
+## 🚀 Features
+
+✅ Add, edit, and delete tasks  
+✅ Mark tasks as complete or active  
+✅ Filter by All / Active / Completed  
+✅ Clear all or only completed tasks  
+💾 Persistent task storage (via `localStorage`)  
+🎨 Sleek UI with **Semantic UI** and custom **CSS**  
+🔔 Smart notifications using **Noty.js** and **Toastify.js**
+
+---
+
+## 🧩 Tech Stack
+
+| Technology | Purpose |
+|-------------|----------|
+| **HTML5** | Structure |
+| **CSS3** | Styling |
+| **JavaScript (Vanilla)** | Logic & Interactivity |
+| **Semantic UI** | UI Components |
+| **Noty.js / Toastify.js** | Notifications |
+| **LocalStorage API** | Data Persistence |
+
+---
+
+🧠 How It Works
+
+Tasks are stored locally using the browser’s localStorage.
+
+Each operation (add, edit, delete) updates storage in real time.
+
+The UI updates dynamically through DOM manipulation.
+
+Modal confirmations ensure accidental deletions are prevented.
+
+🪄 Future Enhancements
+
+🕓 Add due dates and reminders
+
+☁️ Connect with backend (Firebase/MySQL)
+
+📱 Convert to Progressive Web App (PWA)
+
+🌙 Add dark/light theme toggle
